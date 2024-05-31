@@ -139,20 +139,6 @@ h3 {
 	margin-bottom: 2em;
 }
 
-.portfolio__item--title {
-	color: #98fb98;
-}
-.portfolio__item--stack {
-	padding-bottom: 10px;
-}
-.portfolio__item--stack > span {
-	color: #98fb98;
-}
-
-.portfolio__item--stack > strong {
-	color: #7df9ff;
-}
-
 /* header */
 
 header {
@@ -338,7 +324,7 @@ header {
 }
 
 .service {
-	max-width: 500px;
+	max-width: 700px;
 	margin: 0 auto;
 }
 
@@ -423,6 +409,18 @@ header {
 	background: var(--clr-accent);
 	overflow: hidden; /* prevents the block showing underneath when item is scaled to 1.2 times during hover, so it now just scales within the grid box */
 }
+.portfolio__item__block {
+	max-width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0 2em 2em;
+}
+
+.portfolio__item__block p {
+	max-width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+}
 
 .portfolio__item__block:not(:last-child) {
 	margin-bottom: 50px;
@@ -440,12 +438,26 @@ header {
 
 .portfolio__img:hover,
 .portfolio__item:focus .portfolio__img {
-	transform: scale(1.04);
+	transform: scale(1.15);
 	opacity: 0.5;
 }
 
 .portfolio__item__link {
 	text-decoration: none;
+}
+
+.portfolio__item--title {
+	color: #98fb98;
+}
+.portfolio__item--stack {
+	padding-bottom: 20px;
+}
+.portfolio__item--stack > span {
+	color: #98fb98;
+}
+
+.portfolio__item--stack > strong {
+	color: #7df9ff;
 }
 
 /* footer */
