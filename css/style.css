@@ -449,9 +449,14 @@ header {
 .portfolio__item--title {
 	color: #98fb98;
 }
-.portfolio__item--stack {
+.portfolio__item--github {
 	padding-bottom: 20px;
 }
+
+.portfolio__item--github a {
+	color: #7df9ff;
+}
+
 .portfolio__item--stack > span {
 	color: #98fb98;
 }
